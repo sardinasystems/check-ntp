@@ -1,4 +1,4 @@
-module github.com/sardinasystems/sensu-go-check-ntp
+module github.com/sardinasystems/check-ntp
 
 go 1.17
 
