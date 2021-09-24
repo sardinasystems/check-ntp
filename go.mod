@@ -4,9 +4,10 @@ go 1.17
 
 require (
 	github.com/facebookincubator/ntp v0.0.0-20210909173946-340a65f31564
-	github.com/sensu-community/sensu-plugin-sdk v0.12.0
 	github.com/sensu/sensu-go/api/core/v2 v2.11.0
 	github.com/sensu/sensu-go/types v0.8.0
+	github.com/sensu/sensu-plugin-sdk v0.14.1
+	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
 )
 
@@ -32,7 +33,6 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20210614181706-373ff5438452 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/sensu/sensu-licensing v0.1.2 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/afero v1.6.0 // indirect
 	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/cobra v1.2.1 // indirect

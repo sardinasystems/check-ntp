@@ -5,8 +5,9 @@ import (
 	"math"
 
 	"github.com/facebookincubator/ntp/ntpcheck/checker"
-	"github.com/sensu-community/sensu-plugin-sdk/sensu"
 	"github.com/sensu/sensu-go/types"
+	"github.com/sensu/sensu-plugin-sdk/sensu"
+	"github.com/sirupsen/logrus"
 )
 
 // Config represents the check plugin config.
@@ -14,6 +15,7 @@ type Config struct {
 	sensu.PluginConfig
 	Warning  float64
 	Critical float64
+	Debug    bool
 }
 
 var (
@@ -42,6 +44,15 @@ var (
 			Usage:     "Warning threshold for offset in ms",
 			Value:     &plugin.Warning,
 		},
+		{
+			Path:      "debug",
+			Env:       "NTP_DEBUG",
+			Argument:  "debug",
+			Shorthand: "d",
+			Default:   false,
+			Usage:     "output debugging data",
+			Value:     &plugin.Debug,
+		},
 	}
 )
 
@@ -64,6 +75,10 @@ func checkArgs(event *types.Event) (int, error) {
 }
 
 func executeCheck(event *types.Event) (int, error) {
+	if plugin.Debug {
+		logrus.SetLevel(logrus.DebugLevel)
+	}
+
 	result, err := checker.RunCheck("")
 	if err != nil {
 		fmt.Printf("%s CRITICAL: failed to run check, error: %v\n", plugin.PluginConfig.Name, err)
