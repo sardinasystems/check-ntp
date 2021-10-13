@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/facebookincubator/ntp v0.0.0-20210909173946-340a65f31564
-	github.com/sensu/sensu-go/api/core/v2 v2.11.0
+	github.com/sensu/sensu-go/api/core/v2 v2.11.1
 	github.com/sensu/sensu-go/types v0.8.1
 	github.com/sensu/sensu-plugin-sdk v0.14.1
 	github.com/sirupsen/logrus v1.8.1
