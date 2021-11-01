@@ -372,8 +372,8 @@ github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529/go.mod h1:DxrIzT+xaE7yg
 github.com/sensu/sensu-go/api/core/v2 v2.0.0/go.mod h1:L+ZZ+QzsGTrNldiAdVrrQI/WIo31cq43YnEFt9T/6Pg=
 github.com/sensu/sensu-go/api/core/v2 v2.3.0/go.mod h1:97IK4ZQuvVjWvvoLkp+NgrD6ot30WDRz3LEbFUc/N34=
 github.com/sensu/sensu-go/api/core/v2 v2.6.0/go.mod h1:97IK4ZQuvVjWvvoLkp+NgrD6ot30WDRz3LEbFUc/N34=
-github.com/sensu/sensu-go/api/core/v2 v2.11.1 h1:WEyi0opkzysnvWprHeFmB/eUo/m//LpGlvExGp3a4AI=
-github.com/sensu/sensu-go/api/core/v2 v2.11.1/go.mod h1:urUHDTHcyYqM2XK5mXMF3JdeiOjXCKhwW+z8fXNsZfs=
+github.com/sensu/sensu-go/api/core/v2 v2.12.0 h1:Mu1P+xAONXmMpX4Qf/j9/j9I4JYdw1HzD1uVGe2BEgw=
+github.com/sensu/sensu-go/api/core/v2 v2.12.0/go.mod h1:urUHDTHcyYqM2XK5mXMF3JdeiOjXCKhwW+z8fXNsZfs=
 github.com/sensu/sensu-go/api/core/v3 v3.3.0 h1:260rON3b4DQ1yX2bBH3zR7+9BWkyeV2S4OpEDezQ5Hk=
 github.com/sensu/sensu-go/api/core/v3 v3.3.0/go.mod h1:qjzW//KOc1VnVwf3YUdvHFlVsVXBui3IpVNtedCzCPY=
 github.com/sensu/sensu-go/types v0.1.0/go.mod h1:o3tBPy2BUWb3jPvMQ+pBs0CgCyN1vC1/loN4anURxvs=
