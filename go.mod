@@ -4,14 +4,15 @@ go 1.17
 
 require (
 	github.com/facebookincubator/ntp v0.0.0-20211124231859-25b006a98efc
-	github.com/sensu/sensu-go/api/core/v2 v2.13.0
-	github.com/sensu/sensu-go/types v0.8.1
+	github.com/sensu/sensu-go/api/core/v2 v2.14.0
+	github.com/sensu/sensu-go/types v0.10.0
 	github.com/sensu/sensu-plugin-sdk v0.15.0
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.1
 )
 
 require (
+	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/echlebek/timeproxy v1.0.0 // indirect
@@ -22,11 +23,8 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
