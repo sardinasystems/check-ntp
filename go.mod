@@ -7,7 +7,7 @@ require (
 	github.com/sensu/sensu-go/api/core/v2 v2.14.0
 	github.com/sensu/sensu-go/types v0.10.0
 	github.com/sensu/sensu-plugin-sdk v0.16.0
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.0
 )
 
@@ -42,7 +42,7 @@ require (
 	github.com/subosito/gotenv v1.3.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.4 // indirect
 	golang.org/x/net v0.0.0-20220526153639-5463443f8c37 // indirect
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
+	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/genproto v0.0.0-20220531134929-86cf59382f1b // indirect
 	google.golang.org/grpc v1.46.2 // indirect
