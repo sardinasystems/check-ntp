@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/facebookincubator/ntp v0.0.0-20211124231859-25b006a98efc
 	github.com/sensu/sensu-go/api/core/v2 v2.14.0
-	github.com/sensu/sensu-go/types v0.10.0
+	github.com/sensu/sensu-go/types v0.11.0
 	github.com/sensu/sensu-plugin-sdk v0.16.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.0
