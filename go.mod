@@ -8,7 +8,7 @@ require (
 	github.com/sensu/sensu-go/types v0.11.0
 	github.com/sensu/sensu-plugin-sdk v0.16.0
 	github.com/sirupsen/logrus v1.9.0
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 )
 
 require (
