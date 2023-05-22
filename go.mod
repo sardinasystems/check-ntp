@@ -7,7 +7,7 @@ require (
 	github.com/sensu/core/v2 v2.19.0
 	github.com/sensu/sensu-go/types v0.12.0
 	github.com/sensu/sensu-plugin-sdk v0.18.0
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.2
 	github.com/stretchr/testify v1.8.3
 )
 
