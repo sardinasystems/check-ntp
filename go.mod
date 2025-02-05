@@ -3,7 +3,7 @@ module github.com/sardinasystems/check-ntp
 go 1.22.7
 
 require (
-	github.com/facebookincubator/ntp v0.0.0-20211124231859-25b006a98efc
+	github.com/facebook/time v0.0.0-20250205122115-5e75ab2f36ac
 	github.com/sensu/core/v2 v2.20.0
 	github.com/sensu/sensu-go/types v0.13.0
 	github.com/sensu/sensu-plugin-sdk v0.19.0
@@ -27,7 +27,6 @@ require (
 	github.com/magiconair/properties v1.8.9 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/robertkrimen/otto v0.5.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect

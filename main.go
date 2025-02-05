@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/facebookincubator/ntp/ntpcheck/checker"
+	"github.com/facebook/time/ntp/responder/checker"
 	"github.com/sensu/sensu-go/types"
 	"github.com/sensu/sensu-plugin-sdk/sensu"
 	"github.com/sirupsen/logrus"
